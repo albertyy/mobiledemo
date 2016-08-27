@@ -27,7 +27,7 @@
 				recordHistory:true, //可以用前进后退来回到历史记录的anchor页面 如果autoScrolling 被设置了false 这个也会被设置成false
 				navigation:true,
 				navigationPosition:"right",
-				navigationTooltips:["TIME TO KNOW ABOUT ME","PERSONAL INFOMATION","EDUCATION","TECHNIACAL SKILL","WORKING EXPERIENCE","PROJECT"],
+				navigationTooltips:["jump","catch me if you can","click me plz"],
 				showActiveTooltip:true,
 				slidesNavigation:true,
 				slidesNavPosition:"bottom", 
@@ -71,34 +71,7 @@
 			move(".section3 .img1").set("top","51%").end();
 			*/
 			break;
-			case 4:
-			move(".section4 .img1").set("top","40%").duration("2s").end();
-			move(".section4 .img1").set("left","15%").duration("2s").end();
-			move(".section4 .img1").set("width","20%").duration("2s").end();
-			move(".section4 .img1").rotate(0).duration("2s").end();
-			move(".section4 .img2").set("opacity","1").delay("0s").end();
-			move(".section4 .img2").set("left","200%").delay("0s").duration("6s").end();
-			move(".section4 .img3").set("opacity","1").delay("0.5s").end();
-			move(".section4 .img3").set("left","200%").delay("0.5s").duration("5s").end();
-			move(".section4 .img4").set("opacity","1").delay("0.8s").end();
-			move(".section4 .img4").set("left","200%").delay("1.2s").duration("4s").end();
-			break;
-			case 5:
-			move(".section5").set("background-image","url(image/5.3.jpg)").duration("1s").end();
-			move(".section5 .img1")
-				.set("left", "24.5%")
-				.scale(1.2)
-				.duration("3s")
-				.then()
-					.set("left","24%")
-					.scale(0.833)
-					.delay("0s")
-					.duration("3s")
-					.pop()
-				.end();
-			break;
-			case 6:
-			break;
+
 
 		}
 	},
@@ -109,14 +82,18 @@
 
 			break;
 			case 2:
-			/*move(".section2 .img1").set("display","none").end();
-			move(".section2 .img2").set("opacity","0").end();*/
+
 			break;
 			case 3:
-			/*move(".section3 .img1").set("display","none").end();
-			move(".section3 .img1").set("width","20%").end();
-			move(".section3 .img1").set("top","60%").end();
-			move(".section3 .img1").set("left","38%").end();*/
+			$(".a").css("display","block");
+			$(".b").css("display","block");
+			$(".c").css("display","block");
+			$(".d").css("display","block");
+			$(".e").css("display","block");
+			$(".f").css("display","block");
+			$(".g").css("display","block");
+			$(".h").css("display","block");
+
 			break;
 			case 4:
 			move(".section4 .img1").set("top","10%").end();
@@ -153,3 +130,59 @@
 	}*/
 			})			
 	})
+
+$(function(){
+		$(".a")
+		.mouseover(function(){
+			$(".a").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".b")
+		.mouseover(function(){
+			$(".b").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".c")
+		.mouseover(function(){
+			$(".c").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".d")
+		.mouseover(function(){
+			$(".d").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".e")
+		.mouseover(function(){
+			$(".e").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".f")
+		.mouseover(function(){
+			$(".f").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".g")
+		.mouseover(function(){
+			$(".g").css("display","none");
+		})
+	});	
+
+$(function(){
+		$(".h")
+		.mouseover(function(){
+			$(".h").css("display","none");
+		})
+	});	
